@@ -1,9 +1,9 @@
 <?php 
 
-$host = getenv('DB_HOST'); 
-$dbname = getenv('DB_DATABASE_NAME');
-$username = getenv('DB_USERNAME');
-$password = getenv('DB_PASSWORD');
+$host = 'db.khhmaxbegomuwdzkaxpj.supabase.co'; 
+$dbname = 'postgres';
+$username = 'postgres';
+$password = 'PHPSDKll@123';
 $table_name = "breads";
 
 $dsn = "pgsql:host=$host;port=5432;dbname=$dbname;user=$username;password=$password";
